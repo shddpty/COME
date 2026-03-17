@@ -7,7 +7,9 @@ You can run 'python main.py' for a demo!
 Multi-view data involves various data forms, such as multi-feature, multi-sequence and multimodal data, providing rich semantic information for downstream tasks. The inherent challenge of incomplete multi-view missing multi-label learning lies in how to effectively utilize limited supervision and insufficient data to learn discriminative representation. Starting from the sufficiency of multi-view shared information for downstream tasks, we argue that the existing contrastive learning paradigms on missing multi-view data show limited consistency representation learning ability, leading to the bottleneck in extracting multi-view shared information. In response, we propose to minimize task-independent redundant information by pursuing the maximization of cross-view mutual information. Additionally, to alleviate the hindrance caused by missing labels, we develop a dual-branch soft pseudo-label cross-imputation strategy to improve classification performance. Extensive experiments on multiple benchmarks validate our advantages and demonstrate strong compatibility with both missing and complete data.
 
 ## Overview of COME
-<img width="4187" height="1787" alt="architecture" src="https://github.com/user-attachments/assets/52eea7c5-b830-48d8-b587-94c56c20f2d8" />
+<img width="12952" height="5670" alt="framework" src="https://github.com/user-attachments/assets/11c8fce2-a29e-4bca-8e13-7b066bce6ca2" />
+
+
 
 ## Environment
 Please run the following command in the shell, as specified in `requirements.txt`:
